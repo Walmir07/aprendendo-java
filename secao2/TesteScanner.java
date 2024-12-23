@@ -4,46 +4,43 @@ import java.util.Scanner;
 public class TesteScanner {
     public static void main(String[] args) {
 
-        //Testando scanner        
+        // 1 - testando scanner
         Scanner scanner = new Scanner(System.in);
 
-        //Mensagem para o usuário entender oque precisa digitar
-        System.out.println("Digite seu nome: ");
+        // Mensagem para usuario entender o que precisa digitar
+        System.out.println("Digite o seu nome: ");
 
-        //Resgata o valor do terminal
+        // Resgata o valor do terminal
         String nome = scanner.nextLine();
 
-        //Exibe o valor 
-        System.out.println("Meu nome é " + nome + "!");
+        // Exibe o valor
+        System.out.println("Olá " + nome + "!");
 
-        //Exemplo com número
-
-        System.out.println("Digite a sua idade: ");
+        // nextInt
+        System.out.println("Digite a sua idade:");
 
         int idade = scanner.nextInt();
 
-        System.out.println("Tenho " + idade + " anos");
+        System.out.println("Você tem " + idade + " anos.");
 
-        //Fechamento de scanner para evitar memory leak
-        scanner.close();
-
+        
          // 2 - Problema do nextLine
 
-         System.out.println("Digite um número: ");
+        System.out.println("Digite um número: ");
 
-         int n = scanner.nextInt();
- 
-         scanner.nextLine();
- 
-         System.out.println("Digite um texto: ");
- 
-         String txt = scanner.nextLine();
- 
-         System.out.println("Os dados são, n = " + n + " e txt = " + txt);
- 
- 
-         // Fechamento do scanner, para evitar memory leak
-         scanner.close();
+        int n = scanner.nextInt();
+
+        scanner.nextLine();
+
+        System.out.println("Digite um texto: ");
+
+        String txt = scanner.nextLine();
+
+        System.out.println("Os dados são, n = " + n + " e txt = " + txt);
+
+
+        // Fechamento do scanner, para evitar memory leak
+        scanner.close();
 
     }
 }
