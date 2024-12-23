@@ -162,5 +162,27 @@ public class Variavel {
         int codigoAscii = (int) valorChar;
 
         System.out.println(codigoAscii);
+
+        // 12 - Constantes
+
+        final int DIAS_DA_SEMANA = 7;
+        final int MESES_DO_AN0 = 12;
+
+        System.out.println(DIAS_DA_SEMANA);
+        System.out.println(MESES_DO_AN0);
+
+        // 13 - var
+
+        var testeVar = 15;
+
+        //testeVar = "Texte com texto" : Erro, pois com var só pode mudar o valor se for do mesmo tipo.
+
+        testeVar = 10;
+
+
+
+        System.out.println(testeVar);
+
+
     }
 }
