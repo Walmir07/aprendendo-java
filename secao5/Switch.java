@@ -1,4 +1,4 @@
-package secao4;
+package secao5;
 
 public class Switch {
     public static void main(String[] args) {

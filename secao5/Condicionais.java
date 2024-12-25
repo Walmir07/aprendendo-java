@@ -1,4 +1,4 @@
-package secao4;
+package secao5;
 
 public class Condicionais {
     public static void main(String[] args) {
