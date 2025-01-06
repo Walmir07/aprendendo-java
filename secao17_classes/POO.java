@@ -21,5 +21,17 @@ public class POO {
         celta.acelerar();
         celta.exibirInfo();
 
+        // 3 - Métodos:
+
+        fusca.aumentarVelocidade(10.0);
+        
+        fusca.ligarMotor(); //R: "Ligando motor..."
+        fusca.ligarMotor(); //R: "O motor já está ligado!"
+
+        // Somando velocidade:
+        fusca.aumentarVelocidade(10.0);
+        fusca.aumentarVelocidade(20.0);
+        fusca.aumentarVelocidade(30.0);
+
     }
 }
