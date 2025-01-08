@@ -57,7 +57,7 @@ public class POO {
 
         System.out.println(ContaDaAna.getSaldo());
 
-        // 6 - Logica em get e set
+        // 6 - Lógica em get e set:
 
         Produto camisa = new Produto();
 
@@ -67,6 +67,13 @@ public class POO {
 
         camisa.setPreco(29.99999999999999);
 
+         // 7 - Método dentro de método:
+         
+         System.out.println(camisa.getProdutoInfo());
+
+         camisa.aplicarDesconto(10);
+         camisa.aplicarDesconto(0);
+ 
 
     }
 }
