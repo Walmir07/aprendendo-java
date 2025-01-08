@@ -43,5 +43,20 @@ public class POO {
         pessoa1.setIdade(25);
         System.out.println("A idade da pessoa 1 é: " + pessoa1.getIdade());
 
+        // 5 - Getters e Setters:
+        
+        ContaBancaria ContaDaAna = new ContaBancaria();
+
+        ContaDaAna.setTitular("Ana");
+
+        ContaDaAna.setSaldo(1000);
+
+        ContaDaAna.exibirInfo();
+
+        System.out.println(ContaDaAna.getTitular());
+
+        System.out.println(ContaDaAna.getSaldo());
+
+
     }
 }
