@@ -33,5 +33,15 @@ public class POO {
         fusca.aumentarVelocidade(20.0);
         fusca.aumentarVelocidade(30.0);
 
+        // 4 - Criando propriedades:
+
+        Pessoa pessoa1 = new Pessoa();
+
+        pessoa1.setNome("João");
+        System.out.println("O nome da pessoa 1 é: " + pessoa1.getNome());
+
+        pessoa1.setIdade(25);
+        System.out.println("A idade da pessoa 1 é: " + pessoa1.getIdade());
+
     }
 }
