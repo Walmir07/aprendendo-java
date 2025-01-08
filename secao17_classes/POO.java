@@ -68,12 +68,22 @@ public class POO {
         camisa.setPreco(29.99999999999999);
 
          // 7 - Método dentro de método:
-         
+
          System.out.println(camisa.getProdutoInfo());
 
          camisa.aplicarDesconto(10);
          camisa.aplicarDesconto(0);
  
+          // 8 - Construtores de classes:
+
+        Livro meuLivro = new Livro("Harry Potter", "J K Rowlling", 31.90);
+
+        meuLivro.exibirInfo();
+
+        Livro meuLivro2 = new Livro();
+
+        meuLivro2.exibirInfo();
+
 
     }
 }
