@@ -44,7 +44,7 @@ public class POO {
         System.out.println("A idade da pessoa 1 é: " + pessoa1.getIdade());
 
         // 5 - Getters e Setters:
-        
+
         ContaBancaria ContaDaAna = new ContaBancaria();
 
         ContaDaAna.setTitular("Ana");
@@ -56,6 +56,16 @@ public class POO {
         System.out.println(ContaDaAna.getTitular());
 
         System.out.println(ContaDaAna.getSaldo());
+
+        // 6 - Logica em get e set
+
+        Produto camisa = new Produto();
+
+        camisa.setNome("Camisa regata");
+
+        System.out.println(camisa.getNome());
+
+        camisa.setPreco(29.99999999999999);
 
 
     }
