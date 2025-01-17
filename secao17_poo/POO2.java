@@ -1,5 +1,7 @@
 package secao17_poo;
 
+import java.util.Arrays;
+
 public class POO2 {
     
     public static void main(String[] args) {
@@ -31,6 +33,20 @@ public class POO2 {
         System.out.println(joaquim.getNome());
 
         // joaquim.nome = "teste";
+
+        // 3 - Encapsulamento de arrays
+
+        String[] meusAlunos = {"Matheus", "João", "Maria"};
+
+        Turma novaTurma = new Turma(meusAlunos);
+
+        System.out.println(Arrays.toString(novaTurma.getAlunos()));
+
+        String[] outrosAlunos = {"ALuno 1", "Aluno 2"};
+
+        novaTurma.setAlunos(outrosAlunos);
+
+        System.out.println(Arrays.toString(novaTurma.getAlunos()));
 
     }
 
