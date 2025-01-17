@@ -24,6 +24,14 @@ public class POO2 {
             System.out.println("Usuário entrou no sistema");
         }
 
+        // 2 - Classe imutável
+        PessoaImutavel joaquim = new PessoaImutavel("Joaquim", 23);
+
+        System.out.println(joaquim.getIdade());
+        System.out.println(joaquim.getNome());
+
+        // joaquim.nome = "teste";
+
     }
 
 }
